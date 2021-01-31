@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    font-family: Poppins;
+}
+main{
+    padding: 40px 20px;
+}
+.movie {
+    display: flex;
+    align-items: flex-start;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    max-width: 85%;
+    padding: 30px;
+    border-radius: 6px;
+    margin: 0 auto;
+}
+p{
+    margin-bottom: 10px;
+}
+span {
+    color: #000000;
+    font-weight: 500;
+}
+.movie-poster-image{
+    border-radius: 6px;
+}
+.movie-details {
+    margin-left: 30px;
+}
+.movie-title {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+.movie-release-date::before {
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/icons/calendar.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 5px;
+    vertical-align: top;
+}
+.movie-rated::before{
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/icons/bolt.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 5px;
+    vertical-align: top;
+}   
+.movie-runtime::before{
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/icons/time.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 5px;
+    vertical-align: top;
+}
+.movie-actors::before{
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/icons/people.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 5px;
+    vertical-align: top;
+}
+.movie-awards::before{
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/icons/award.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 5px;
+    vertical-align: top;
+}
+.movie-box-office::before{
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/icons/cash.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 5px;
+    vertical-align: top;
+}
+.movie-country::before{
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/icons/world.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 5px;
+    vertical-align: top;
+}
+.movie-director::before{
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/icons/man.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 5px;
+    vertical-align: top;
+}
+.movie-genre::before{
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/icons/genre.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 5px;
+    vertical-align: top;
+}
+.movie-lang::before{
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/icons/lang.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 5px;
+    vertical-align: top;
+}
+.movie-metascore::before{
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/icons/score.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 5px;
+    vertical-align: top;
+}
+.movie-plot::before{
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/icons/text.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 5px;
+    vertical-align: top;
+}
+.movie-production::before{
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/icons/copyright.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 5px;
+    vertical-align: top;
+}
+.movie-ratings > span{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.movie-ratings::before{
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/icons/star.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 5px;
+    vertical-align: top;
+}
+.ratings{
+    display: flex;
+    align-items: center;
+}
+.rating-source {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 35px;
+    margin-bottom: 10px;
+}
+.rating-source-name {
+    text-align: center;
+}
+.raing-value {
+    text-align: center;
+}
+.movie-website{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.movie-website::before{
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/icons/web.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 5px;
+    vertical-align: top;
+}
+.movie-writer::before{
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/icons/pen.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 5px;
+    vertical-align: top;
+}
+.imdb-votes::before{
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/icons/medal.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 5px;
+    vertical-align: top;
+}
